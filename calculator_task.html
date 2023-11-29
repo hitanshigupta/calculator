@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Task 3</title>
+    <link rel="stylesheet" href="calc_style.css">
+</head>
+
+<body>
+
+    <h1 class="h1">ONLINE CALCULATOR !</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="cal_layout">
+        <input type="text" id="num" disabled>
+        <div class="keys">
+            <button class="high" onclick="disp('7')">7</button>
+            <button class="high" onclick="disp('8')">8</button>
+            <button class="high" onclick="disp('9')">9</button>
+            <button class="high" onclick="disp('+')">+</button>
+            <button class="high" onclick="disp('4')">4</button>
+            <button class="high" onclick="disp('5')">5</button>
+            <button class="high" onclick="disp('6')">6</button>
+            <button class="high" onclick="disp('-')">-</button>
+            <button class="high" onclick="disp('1')">1</button>
+            <button class="high" onclick="disp('2')">2</button>
+            <button class="high" onclick="disp('3')">3</button>
+            <button class="high" onclick="disp('*')">*</button>
+            <button class="high" onclick="disp('0')">0</button>
+            <button class="high" onclick="disp('.')">.</button>
+            <button class="high" onclick="calc()">=</button>
+            <button class="high" onclick="disp('/')">/</button>
+            <button class="high" onclick="clr()">C</button>
+        </div>
+    </div>
+
+    <script src="calc_js.js"></script>
+</body>
+
+</html>
